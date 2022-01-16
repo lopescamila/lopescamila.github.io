@@ -140,4 +140,7 @@
   .experiencia {
     gap: 30px;
   }
+  .projeto span {
+    grid-row: 2;
+  }
 }
