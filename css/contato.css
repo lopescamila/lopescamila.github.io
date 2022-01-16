@@ -1,0 +1,188 @@
+.contato {
+  max-width: 1200px;
+  padding: 40px 40px;
+  margin: 0 auto;
+  display: grid;
+  /* grid-template-columns: 1fr 2fr; */
+  gap: 100px;
+  background: #141414;
+  margin-top: 10px;
+  position: relative;
+}
+.contato::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 80px;
+  background: linear-gradient(to left, #faa8e3, #9b3278);
+  position: absolute;
+  top: -40px;
+  right: 33px;
+}
+.contato::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 80px;
+  background: linear-gradient(to right, #faa8e3, #9b3278);
+  position: absolute;
+  top: -40px;
+  right: 40px;
+}
+.subtitulo {
+  color: #000000;
+}
+.contato-container .subtitulo {
+  max-width: 5ch;
+}
+
+.contatos {
+ background: #141414;
+  border-radius: 5px;
+/* justify-self: center; */
+}
+
+.contato-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.zap {
+  display: flex;
+  padding: 20px
+}
+.zap img {
+  width: 50px;
+}
+.zap p {
+  color: #a3a3a3;
+  align-self: center;
+  padding: 10px;
+}
+.insta {
+  display: flex;
+  padding: 20px;
+}
+.insta img {
+  width: 40px;
+}
+.insta a {
+  color: #a3a3a3;
+  text-decoration: none;
+  padding: 10px;
+}
+.insta a:active {
+color: #dbdbdb;
+font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .contato-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  /* .contato-container .subtitulo {
+    max-width: initial;
+  } coloquei o important no global
+} */
+
+@media (max-width: 500px) {
+  .zap img {
+    width: 30px;
+    height: 30px;
+  }
+  .insta img {
+    width: 30px;
+    height: 30px;
+  }
+  .insta a {
+    font-size: 0.8rem;
+  }
+  .zap p {
+    font-size: 0.8rem;
+  }
+  .insta {
+    padding: 10px;
+  }
+  .zap {
+    padding: 10px;
+  }
+  .contato {
+    padding: 20px 15px;
+  }
+  .contato::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 60px;
+    background: linear-gradient(to right, #faa8e3, #9b3278);
+    position: absolute;
+    top: -40px;
+    right: 40px;
+  }
+  .contato::after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 60px;
+    background: linear-gradient(to left, #faa8e3, #9b3278);
+    position: absolute;
+    top: -30px;
+    right: 33px;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 1.9rem;
+    padding-bottom: 10px;
+  }
+  .zap img {
+    width: 20px;
+    height: 20px;
+  }
+  .insta img {
+    width: 20px;
+    height: 20px;
+  }
+  .insta a {
+    font-size: 0.6rem;
+    padding: 5px;
+  }
+  .zap p {
+    font-size: 0.6rem;
+    padding: 3px;
+  }
+  .insta {
+    padding: 8px;
+  }
+  .zap {
+    padding: 8px;
+  }
+  .contato {
+    padding: 18px 15px;
+  }
+
+  .contato::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 60px;
+    background: linear-gradient(to right, #faa8e3, #9b3278);
+    position: absolute;
+    top: -40px;
+    right: 39px;
+  }
+  .contato::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 60px;
+    background: linear-gradient(to left, #faa8e3, #9b3278);
+    position: absolute;
+    top: -30px;
+    right: 33px;
+  }
+}

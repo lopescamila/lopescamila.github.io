@@ -1,0 +1,18 @@
+footer {
+  background: #000000;
+}
+.footer-container {
+  max-width: 1200px;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 100px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1rem;
+  line-height: 1.33;
+  color: #8f8f8f;
+}
