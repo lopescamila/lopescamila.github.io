@@ -37,20 +37,19 @@
 }
 
 .contatos {
- background: #141414;
+  background: #141414;
   border-radius: 5px;
-/* justify-self: center; */
+  /* justify-self: center; */
 }
 
 .contato-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
 
 .zap {
   display: flex;
-  padding: 20px
+  padding: 20px;
 }
 .zap img {
   width: 50px;
@@ -73,8 +72,8 @@
   padding: 10px;
 }
 .insta a:active {
-color: #dbdbdb;
-font-weight: bold;
+  color: #dbdbdb;
+  font-weight: bold;
 }
 
 @media (max-width: 800px) {
@@ -83,10 +82,7 @@ font-weight: bold;
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  /* .contato-container .subtitulo {
-    max-width: initial;
-  } coloquei o important no global
-} */
+}
 
 @media (max-width: 500px) {
   .zap img {
