@@ -109,6 +109,11 @@
   top: 6px;
   left: -13px;
 }
+
+.projeto-texto-particip a {
+  color: #9b3278;
+}
+
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
