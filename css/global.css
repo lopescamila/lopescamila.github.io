@@ -12,6 +12,7 @@ h1,
 h2,
 h3,
 p {
+  font-weight: bold;
   margin: 0px;
 }
 
@@ -24,6 +25,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+  /* pra nao quebrar a img */
   display: block;
 }
 

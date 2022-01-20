@@ -9,7 +9,7 @@
   background: #141414;
 }
 .introducao h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
   line-height: 80px;
   line-height: 5rem;
   line-height: 1.125;
@@ -24,7 +24,7 @@
   display: block;
   width: 130px;
   height: 100px;
-  background: url(../imgs/detalhedecoperfil.svg) no-repeat center;
+  background: url(../imgs/detalheperfil.svg) no-repeat center;
   position: absolute;
   top: -29px;
   left: -61px;
@@ -45,7 +45,7 @@
     top: 2px;
     left: -7px;
     border-radius: 5px;
-    background: url(../imgs/detalhedecoperfil.svg) no-repeat center;
+    background: url(../imgs/zul2.svg) no-repeat center;
   }
   .introducao p {
     font-size: 1.3rem;

@@ -16,6 +16,7 @@
 
 .header-menu a {
   font-size: 1.125rem;
+  font-weight: bold;
   line-height: 1.3rem;
   padding: 10px 20px;
   /* colocou o gap pequeno pq a area de clic do padding tinha q ser maior */
