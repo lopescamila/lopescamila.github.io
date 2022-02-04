@@ -1,4 +1,14 @@
 .introducao {
+  /* max-width: 1200px;
+  padding: 40px 40px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center; */
+  background: #141414;
+}
+.introducao-container {
   max-width: 1200px;
   padding: 40px 40px;
   margin: 0 auto;
@@ -6,9 +16,8 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   align-items: center;
-  background: #141414;
 }
-.introducao h1 {
+.introducao-container h1 {
   font-size: 4rem;
   line-height: 80px;
   line-height: 5rem;
@@ -19,7 +28,7 @@
   color: #dbdbdb;
   z-index: 0;
 }
-.introducao h1::before {
+.introducao-container h1::before {
   content: "";
   display: block;
   width: 130px;
@@ -30,16 +39,16 @@
   left: -61px;
   z-index: -1;
 }
-.introducao p {
+.introducao-container p {
   font-size: 1.5rem;
   color: #525252;
 }
 
 @media (max-width: 1000px) {
-  .introducao h1 {
+  .introducao-container h1 {
     font-size: 3.2rem;
   }
-  .introducao h1::before {
+  .introducao-container h1::before {
     width: 40px;
     height: 40px;
     top: 2px;
@@ -47,70 +56,70 @@
     border-radius: 5px;
     background: url(../imgs/zul2.svg) no-repeat center;
   }
-  .introducao p {
+  .introducao-container p {
     font-size: 1.3rem;
   }
 }
 @media (max-width: 800px) {
-  .introducao {
+  .introducao-container {
     grid-template-columns: 1fr 1fr;
     gap: 70px;
   }
-  .introducao h1 {
+  .introducao-container h1 {
     font-size: 2.2rem;
   }
-  .introducao h1::before {
+  .introducao-container h1::before {
     width: 30px;
     height: 30px;
     top: -2px;
     left: -8px;
     border-radius: 5px;
   }
-  .introducao p {
+  .introducao-container p {
     font-size: 1rem;
   }
 }
 @media (max-width: 600px) {
-  .introducao h1 {
+  .introducao-container h1 {
     font-size: 1.9rem;
   }
-  .introducao h1::before {
+  .introducao-container h1::before {
     width: 27px;
     height: 27px;
     top: -2px;
     left: -8px;
     border-radius: 5px;
   }
-  .introducao {
+  .introducao-container {
     gap: 40px;
   }
 }
 @media (max-width: 500px) {
-  .introducao h1 {
+  .introducao-container h1 {
     font-size: 1.4rem;
   }
-  .introducao h1::before {
+  .introducao-container h1::before {
     width: 22px;
     height: 22px;
     top: -3px;
     left: -7px;
     border-radius: 4px;
   }
-  .introducao {
+  .introducao-container {
     gap: 40px;
   }
-  .introducao p {
+  .introducao-container p {
     font-size: 0.8rem;
   }
 }
 @media (max-width: 400px) {
-  .introducao {
+  .introducao-container {
     grid-template-columns: 1fr;
   }
-  .introducao h1 {
+  .introducao-container h1 {
     font-size: 2.2rem;
   }
-  .introducao h1::before {
+  .introducao-container h1::before {
     width: 29px;
     height: 29px;
     top: 1px;
@@ -119,10 +128,10 @@
   }
 }
 @media (max-width: 345px) {
-  .introducao h1 {
+  .introducao-container h1 {
     font-size: 1.9rem;
   }
-  .introducao h1::before {
+  .introducao-container h1::before {
     width: 29px;
     height: 29px;
     top: -3px;
